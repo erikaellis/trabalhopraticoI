@@ -54,6 +54,7 @@ e muitos outros
 <li>Comunicação servidor/cliente</li>
 <li>Backup?</li>
 </ul>
+<img src="download">
 <h2>Vantagens do GIT</h2>
 <li> Consistência</li>
 <li>Nenhum repositório deve possui mais data que qualquer outro</li>
@@ -67,6 +68,24 @@ operações de push/pull</li>
 <li> Simplicidade</li>
 <li> Modelo de uso é muito simples</li>
 <li>Open Source</li>
-
+Documentado quase exclusivamente através de páginas
+geradas via “man”
+<li> Maior massa de dados em operações push/pull do que
+em commits/updates de versões centralizadas
+e… que eu saiba nenhuma outra !<li>
+<h2>Arquitetura do GIT</h2>
+<li>Indíces</li>
+<li> Armazenam informação sobre a versão atual e as mudanças
+feitas nela</li>
+<li> Banco de Dados de Objetos</li>
+<li>Blobs (arquivos)</li>
+<li> Armazenados na pasta .git/objects</li>
+<li> Indexados por um único hash</li>
+<li> Todos os arquivos são armazenados em blobs</li>
+<li>Trees (diretórios)</li>
+<li>Commits</li>
+<li>Cada commit gera um novo objeto</li>
+<li>Informações do commit: hash do pai, nome do autor, data/hora do
+commit e o hash da estrutura corrente</li>
  </body>
 </html>
