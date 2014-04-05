@@ -19,7 +19,7 @@ seu projet como,feeds, followers, wiki e um gráfico que mostra como os desenvol
 
 
 
-	<h3>Você pode criar novos arquivos diretamente no GitHub em qualquer um dos seus repositórios</h3>
+	<h4>Você pode criar novos arquivos diretamente no GitHub em qualquer um dos seus repositórios</h4>
 
 	
 <p>Navegue até uma pasta em seu repositório, onde você deseja criar um arquivo.Obotão criar novo arquivo no GitHub na barra do menu superior, há um ícone ao lado do 
@@ -35,8 +35,38 @@ Você pode criar subdiretórios, digitando o / separador de diretório.
 Commit mensagem para o seu novo arquivo. Digite uma mensagem de commit descrevendo o novo arquivo que você está adicionando, e pressione o Commit botão para mandar a 
 
 sua mudança para o repositório.</p>
+  
+
+		<h2>Editado Arquivos</h2>
+	<h4>Você pode editar arquivos diretamente no GitHub em qualquer um dos seus repositórios usando o editor de Ace .</h4>
 
 
+	<ol>
+		<li>Navegue até a pasta onde o arquivo que você deseja editar está localizado.</li>
+
+		<li>Selecione o arquivo que você deseja editar.</li>
+
+		<li>Clique no botão Editar acima do texto processado.</li>
+
+		<li>Faça todas as alterações necessárias para o arquivo.</li>
+
+		<li>Clique visualização para ver como as mudanças vão ficar, uma vez que são feitas.</li>
+	
+		<li>Digite um resumo comite e, opcionalmente, uma descrição estendida.</li>
+
+		<li>Clique Confirmar alterações.</li>
+
+	</ol>
+		<h2> Excluindo Arquivos </h2>
+
+	<h4>Você pode excluir qualquer arquivo dentro de seus repositórios no GitHub.</h4>
+	<ol>
+		<li>Procure o arquivo em seu repositório que você deseja excluir.</li>
+
+		<li>No topo do arquivo, clique em Excluir .</li>
+
+		<li>Digite uma mensagem de commit descrevendo por que você apagou o arquivo e clique em Commit para confirmar a alteração para o repositório.<>
+	</ol>
 
 
 
