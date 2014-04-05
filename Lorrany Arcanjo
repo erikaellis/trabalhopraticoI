@@ -4,25 +4,28 @@
     <Head>
 <body>
    <h1>Github</h1>
+O Github é um serviço de hospedagem compartilhado, 
 
-O Github é um serviço de hospedagem distribuído 
+desenvolvido em Ruby on Rails por Chris Wanstrath, PJ 
 
-desenvolvido em Ruby on Rails para projetos 
-que utilizam o controle de versão Git. Assim, é utilizado 
+Hyett e Tom Preston - Wernder para projetos 
+que utilizam o controle de versionamento Git 
 
-como repositório online de códigos 
-fonte para projetos de código aberto.Podemos encontrar 
+disponibilizando plano comerciais e gratuitos para 
 
-nele informações sobre todos os commits (atualizações) 
+projetos de código aberto. Assim, é utilizado como 
 
-dos projetos que o 
-utilizam, uma rede social que possibilita que outras 
+repositório online de códigos fonte. Este site possui 
 
-pessoas acompanhem o desenvolvimento de 
-seu projeto, um recurso para visualizar gráficos de 
+funcionalidades de uma rede social que possibilita que 
 
-quantas atualizações cada pessoa no projeto 
-está realizando, entre outras novidades.
+outras pessoas acompanhem o desenvolvimento de 
+seu projet como,feeds, followers, wiki e um gráfico que 
+
+mostra como os desenvolvedores trabalham as versões de 
+
+seus repositórios.
+
 </body>
 
 </Html>
