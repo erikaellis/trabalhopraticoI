@@ -6,39 +6,81 @@
    <h1>Github</h1>
 	<img src="121.png" width="512" height="512" align="left"> 
 
-	<p>O Github é um serviço de hospedagem compartilhado, desenvolvido em Ruby on Rails por Chris Wanstrath, PJ Hyett e Tom Preston - Wernder, para projetos
-que utilizam o controle de versionamento Git disponibilizando plano comerciais e gratuitos para projetos de código aberto. Assim, é utilizado como repositório online 
+	<p>O Github é um serviço de hospedagem compartilhado, desenvolvido em Ruby on Rails por Chris 
 
-de códigos fonte. Este site possui funcionalidades de uma rede social que possibilita que outras pessoas acompanhem o desenvolvimento de 
-seu projet como,feeds, followers, wiki e um gráfico que mostra como os desenvolvedores trabalham as versões de seus repositórios.</p>
+Wanstrath, PJ Hyett e Tom Preston - Wernder, para projetos
+que utilizam o controle de versionamento Git disponibilizando plano comerciais e gratuitos para 
+
+projetos de código aberto. Assim, é utilizado como repositório online de códigos fonte. Este site 
+
+possui funcionalidades de uma rede social que possibilita que outras pessoas acompanhem o 
+
+desenvolvimento de 
+seu projet como,feeds, followers, wiki e um gráfico que mostra como os desenvolvedores trabalham as 
+
+versões de seus repositórios.</p>
 <br></br>
 <br></br>
 
+
+<h2>Faça um novo repositório no GitHub</h2>
+<p>Cada vez que você da um commit no Git, ele é armazenado em um repositório (ou "repo") Para colocar 
+
+o seu projeto no GitHub, você precisa ter um repositório.Repositórios remotos são os mesmos que o seu 
+
+repositório local, mas armazenado em um servidor ou computador diferente para facilitar a colaboração, 
+
+backup e grandiosidade geral.</p><br></br>
+
+  		  <h2>Criando um repositório no Github</h2><br></br>
+
+	<img src="bootcamp_2_newrepo.jpg" width="656" height="264" align="left"> 
+
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+
+Preencha as informações nesta página. Quando estiver pronto, clique em "Create Repository".<br></br>
+
+	<img src="bootcamp_2_repoinfo.png" width="928" height="504" align="left"> 
+
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br
+
+></br>
+
+
+Parabéns! Você criou com êxito o seu primeiro repositório!
 		<h2>A criação de novos arquivos</h2>
 
 
 
 
-	<h4>Você pode criar novos arquivos diretamente no GitHub em qualquer um dos seus repositórios</h4>
+	<h4>Você pode criar novos arquivos diretamente no GitHub em qualquer um dos seus 
+
+repositórios</h4>
 
 	
-<p>Navegue até uma pasta em seu repositório, onde você deseja criar um arquivo.Obotão criar novo arquivo no GitHub na barra do menu superior, há um ícone ao lado do 
+<p>Navegue até uma pasta em seu repositório, onde você deseja criar um arquivo.Obotão criar novo 
 
-caminho do arquivo. Clique neste ícone para abrir um novo editor de arquivos.Usando o editor, digite o nome do arquivo que você deseja criar, e o conteúdo que você 
+arquivo no GitHub na barra do menu superior, há um ícone ao lado do caminho do arquivo. Clique neste 
 
-quer que ele tem.
+ícone para abrir um novo editor de arquivos.Usando o editor, digite o nome do arquivo que você deseja 
 
-Os nomes dos arquivos criados através da interface web só pode conter caracteres alfanuméricos e hífens. Se você precisa usar outros personagens, você vai precisar 
+criar, e o conteúdo que você quer que ele tem.
 
-para criar / commit os arquivos localmente e depois enviá-los para o repositório.
+Os nomes dos arquivos criados através da interface web só pode conter caracteres alfanuméricos e 
+
+hífens. Se você precisa usar outros personagens, você vai precisar para criar / commit os arquivos 
+
+localmente e depois enviá-los para o repositório.
 Você pode criar subdiretórios, digitando o / separador de diretório.
-Commit mensagem para o seu novo arquivo. Digite uma mensagem de commit descrevendo o novo arquivo que você está adicionando, e pressione o Commit botão para mandar a 
+Commit mensagem para o seu novo arquivo. Digite uma mensagem de commit descrevendo o novo arquivo que 
 
-sua mudança para o repositório.</p>
+você está adicionando, e pressione o Commit botão para mandar a sua mudança para o repositório.</p>
   
 
 		<h2>Editado Arquivos</h2>
-	<h4>Você pode editar arquivos diretamente no GitHub em qualquer um dos seus repositórios usando o editor de Ace .</h4>
+	<h4>Você pode editar arquivos diretamente no GitHub em qualquer um dos seus repositórios 
+
+usando o editor de Ace .</h4>
 
 
 	<ol>
@@ -50,7 +92,9 @@ sua mudança para o repositório.</p>
 
 		<li>Faça todas as alterações necessárias para o arquivo.</li>
 
-		<li>Clique visualização para ver como as mudanças vão ficar, uma vez que são feitas.</li>
+		<li>Clique visualização para ver como as mudanças vão ficar, uma vez que são 
+
+feitas.</li>
 	
 		<li>Digite um resumo comite e, opcionalmente, uma descrição estendida.</li>
 
@@ -65,59 +109,69 @@ sua mudança para o repositório.</p>
 
 		<li>No topo do arquivo, clique em Excluir .</li>
 
-		<li>Digite uma mensagem de commit descrevendo por que você apagou o arquivo e clique em Commit para confirmar a alteração para o repositório.<>
+		<li>Digite uma mensagem de commit descrevendo por que você apagou o arquivo e clique 
+
+em Commit para confirmar a alteração para o repositório.<>
 	</ol>
 
  	<h2>Contribuir para um projeto</h2> 
-<p>Em algum momento você pode encontrar-se querer contribuir com o projeto de outra pessoa, ou gostaria de usar projeto de alguém como o ponto de partida para o seu 
+<p>Em algum momento você pode encontrar-se querer contribuir com o projeto de outra pessoa, ou 
 
-próprio. Isto é conhecido como "bifurcação". Para este tutorial, vamos usar a colher-Knife projeto, hospedado no GitHub.com.</p>
+gostaria de usar projeto de alguém como o ponto de partida para o seu próprio. Isto é conhecido como 
+
+"bifurcação". Para este tutorial, vamos usar a colher-Knife projeto, hospedado no GitHub.com.</p>
 	<h3>Passo 1: Forquilha do repositório "Colher-Knife"</h3>
 <p>Para desembolsar este projeto, clique no botão "garfo" no repositório GitHub.com.</p>
 
 <img src="Bootcamp-Fork.png" width="541" height="55" align="center"> 
 <h3>Passo 2: Clone seu garfo</h3>
-	<p>Você bifurcada com sucesso o repositório Colher-Knife, mas até agora ela só existe no GitHub. Para ser capaz de trabalhar no projeto, você vai precisar para 
+	<p>Você bifurcada com sucesso o repositório Colher-Knife, mas até agora ela só existe no 
 
-cloná-lo para a sua máquina local.</p>
+GitHub. Para ser capaz de trabalhar no projeto, você vai precisar para cloná-lo para a sua máquina 
+
+local.</p>
 
 	<p><h4>Execute o seguinte código:</p></h4>
 		<p>$git clone https://github.com/ nome de usuário / Colher-Knife.git <br></br>
 # Clones seu fork do repositório para o diretório atual no terminal de</p>
 	<h3>Passo 3: Configurar controles remotos</h3> 
-		<p>Quando um repositório é clonado, ele tem um padrão remoto chamado origem , que aponta para o seu garfo no GitHub, e não o repositório original foi 
+		<p>Quando um repositório é clonado, ele tem um padrão remoto chamado origem , que 
 
-bifurcada partir. Para manter o controle do repositório original, você precisa adicionar outro controle remoto chamado a montante :</p>
+aponta para o seu garfo no GitHub, e não o repositório original foi bifurcada partir. Para manter o 
+
+controle do repositório original, você precisa adicionar outro controle remoto chamado a montante 
+
+:</p>
 $cd Colher-Knife <br></br>
 # Muda o diretório ativo no prompt para o recém-clonado "Colher-Knife" diretório <br></br>
 $git add remoto montante https://github.com/octocat/Spoon-Knife.git <br></br>
 # Atribui o repositório original para uma chamada remota "a montante" <br></br>
 $git fetch montante<br></br> 
-# Puxa em mudanças que não estão presentes no seu repositório local, sem modificar seus arquivos<br></br>
+# Puxa em mudanças que não estão presentes no seu repositório local, sem modificar seus 
+
+arquivos<br></br>
 
 	<h3> Mais coisas que você pode fazer</h3>
-<p>Você bifurcada com sucesso um repositório, mas ter uma carga dessas outras coisas legais que você pode fazer:</p>
+<p>Você bifurcada com sucesso um repositório, mas ter uma carga dessas outras coisas legais que você 
+
+pode fazer:</p>
 <ul>
 
-
-	<p>Cada vez que você da um commit no Git, ele é armazenado em um repositório (ou "repo") Para colocar o seu projeto no GitHub, você precisa ter um 
-
-repositório.</p>
-    <h4>Criando um repositório no Github</h4>
-
-Preencha as informações nesta página. Quando estiver pronto, clique em "Create Repository".
-
-..
+	
 		<li><h4>Push Commits<h4></li>
-	<p>Depois de ter feito alguns commits em um repositório bifurcada e querem enviá-lo para o seu projeto bifurcado, você pode fazê-lo da mesma forma que faria 
+	<p>Depois de ter feito alguns commits em um repositório bifurcada e querem enviá-lo para o seu 
 
-com um repositório comum:</p>
-	<p>Após o seu primeiro git commit só irá salvar os arquivos que foram alterados, economizando espaço.</p>
+projeto bifurcado, você pode fazê-lo da mesma forma que faria com um repositório comum:</p>
+	<p>Após o seu primeiro git commit só irá salvar os arquivos que foram alterados, economizando 
+
+espaço.</p>
 	<p>$origem git push mestre<br></br> 
 # Empurra commits para o seu repositório remoto armazenados no GitHub</p>
 	
 		<li><h4>Pull em mudanças a montante</h4></li>
-	<p>Se o repositório original que você bifurcou é atualizado, você pode adicionar as atualizações para o seu garfo com o seguinte código:</p>
+	<p>Se o repositório original que você bifurcou é atualizado, você pode adicionar as 
+
+atualizações para o seu garfo com o seguinte código:</p>
 
 
 $git fetch montante<br></br>
@@ -125,17 +179,21 @@ $git fetch montante<br></br>
 $git merge a montante / master<br></br> 
 # Mescla as alterações buscadas em seus arquivos de trabalho<br></br>
 			<h5>Qual é a diferença entre buscar e puxar?</h5>
-<p>Há duas maneiras de obter confirmações de um repositório remoto ou ramo: git fetch e git pull . Embora possam parecer semelhantes à primeira, há diferenças 
+<p>Há duas maneiras de obter confirmações de um repositório remoto ou ramo: git fetch e git pull . 
 
-distintas que você deve considerar.</p>
+Embora possam parecer semelhantes à primeira, há diferenças distintas que você deve considerar.</p>
 			<h6>Pull</h6>
 $git pull montante mestre <br></br>
 # puxa compromete de «a montante» e os armazena no repositório local<br></br>
-	<p>Ao usar git pull , git tenta fazer automaticamente o seu trabalho para você. Ele é sensível ao contexto, de modo git merge commits qualquer puxado para o 
+	<p>Ao usar git pull , git tenta fazer automaticamente o seu trabalho para você. Ele é sensível 
 
-ramo que você está trabalhando dentro Uma coisa a ter em mente é que git pull funde automaticamente os commits, sem deixar que você revê-las em primeiro lugar. Se você 
+ao contexto, de modo git merge commits qualquer puxado para o ramo que você está trabalhando dentro 
 
-não controlar de perto seus ramos você pode executar em conflitos freqüentes.</p>
+Uma coisa a ter em mente é que git pull funde automaticamente os commits, sem deixar que você revê-las 
+
+em primeiro lugar. Se você não controlar de perto seus ramos você pode executar em conflitos 
+
+freqüentes.</p>
 
 
 			<h6>Fetch & Merge</h6>
@@ -144,35 +202,49 @@ $git fetch montante <br></br>
 $git merge a montante / master <br></br>
 # Mescla qualquer buscado comete em seus arquivos de trabalho<br></br>
 
-	<p>Quando você git fetch , git recupera nenhum commit do controle remoto alvo que você não tem e os armazena em seu repositório local. No entanto, ele não 
+	<p>Quando você git fetch , git recupera nenhum commit do controle remoto alvo que você não tem 
 
-fundi-los com o seu ramo atual. Isto é particularmente útil se você precisa para manter seu repositório até à data, mas estamos trabalhando em algo que poderia quebrar 
+e os armazena em seu repositório local. No entanto, ele não fundi-los com o seu ramo atual. Isto é 
 
-se você atualizar seus arquivos. Para integrar os commits em sua filial local, você pode usar git merge . Isso combina os ramos específicos e pede-lhe se existem 
+particularmente útil se você precisa para manter seu repositório até à data, mas estamos trabalhando 
+
+em algo que poderia quebrar se você atualizar seus arquivos. Para integrar os commits em sua filial 
+
+local, você pode usar git merge . Isso combina os ramos específicos e pede-lhe se existem 
 
 conflitos.</p>
 
 		<li><h4>Branches</h4></li>
-	<p>Ramificação permite que você crie novas funcionalidades ou testar idéias, sem colocar seu projeto principal em risco. Em git, ramo é uma espécie de marcador 
+	<p>Ramificação permite que você crie novas funcionalidades ou testar idéias, sem colocar seu 
 
-que faz referência ao último commit feito no ramo. Isso faz com ramos muito pequeno e fácil de trabalhar.</p>
-	<p>Branches são muito fáceis de trabalhar e você vai economizar um monte de dores de cabeça, especialmente quando se trabalha com várias pessoas. Para criar um 
+projeto principal em risco. Em git, ramo é uma espécie de marcador que faz referência ao último commit 
 
-ramo e começar a trabalhar nele, execute os seguintes comandos:
+feito no ramo. Isso faz com ramos muito pequeno e fácil de trabalhar.</p>
+	<p>Branches são muito fáceis de trabalhar e você vai economizar um monte de dores de cabeça, 
+
+especialmente quando se trabalha com várias pessoas. Para criar um ramo e começar a trabalhar nele, 
+
+execute os seguintes comandos:
 
 
 <br></br>$git branch mybranch <br></br>
  # Cria um novo ramo chamado "mybranch" <br></br>
 $git checkout mybranch<br></br>
  # Faz "mybranch" o ramo ativo</p>
+	<p>Alternativamente, você pode usar o atalho:</p>
+$git checkout-b mybranch br></br>
+ # Cria um novo ramo chamado "mybranch" e faz com que seja o ramo ativobr></br>
 
-<h5>Para alternar entre os ramos, use git checkout .</h5>
+
+<p>Para alternar entre os ramos, use git checkout .</p>
 
 $git checkout mestre <br></br>
 # Faz "mestre" do ativo ramo <br></br>
 $git checkout mybranch<br></br>
  # Faz "mybranch" o ramo ativo<br></br>
-<h5>Uma vez que você terminar de trabalhar no seu ramo e está pronto para combiná-lo de volta para o mestre ramo, usar merge .</h5>
+<p>Uma vez que você terminar de trabalhar no seu ramo e está pronto para combiná-lo de volta para o 
+
+mestre ramo, usar merge .</p>
 
 $git checkout mestre <br></br>
 # Faz "mestre" do ativo ramo<br></br> 
@@ -181,17 +253,19 @@ $git merge mybranch<br></br>
 $git branch-d mybranch<br></br>
  # Exclui o "mybranch" ramo<br></br>
 		<li><h4>Pull requests</h4></li>
-	<p>Se você está esperando para contribuir de volta para o garfo original, você pode enviar ao autor original um pull request .</p>
+	<p>Se você está esperando para contribuir de volta para o garfo original, você pode enviar ao 
 
-Se você está esperando para contribuir de volta para o garfo original, você pode enviar ao autor original um pull request .
+autor original um pull request .</p>
 
 		<li><h4>Excluir um garfo</h4></li>
-	<p>Em algum momento você pode decidir que você quer apagar o seu garfo. Para excluir um garfo, basta seguir os mesmos passos que você faria para excluir um 
+	<p>Em algum momento você pode decidir que você quer apagar o seu garfo. Para excluir um garfo, 
 
-repositório comum.</p> 
+basta seguir os mesmos passos que você faria para excluir um repositório comum.</p> 
 
 		<li><h4>Pull</h4></Li>
-	<p>Se o repositório original que você bifurcada seu projeto de é atualizado, você pode adicionar as atualizações para o seu garfo</p>
+	<p>Se o repositório original que você bifurcada seu projeto de é atualizado, você pode 
+
+adicionar as atualizações para o seu garfo</p>
 
 
 
