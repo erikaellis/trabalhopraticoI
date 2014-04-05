@@ -4,13 +4,31 @@
     <Head>
 <body>
    <h1>Github</h1>
-	<img src="trabalhopraticoI/github.jpg" width="499" height="510" align="left"> 
+	<img src="121.png" width="512" height="512" 
 
-	<p>O Github é um serviço de hospedagem compartilhado, desenvolvido em Ruby on Rails por Chris Wanstrath, PJ Hyett e Tom Preston - Wernder, para projetos
-que utilizam o controle de versionamento Git disponibilizando plano comerciais e gratuitos para projetos de código aberto. Assim, é utilizado como repositório online 
+align="left"> 
 
-de códigos fonte. Este site possui funcionalidades de uma rede social que possibilita que outras pessoas acompanhem o desenvolvimento de 
-seu projet como,feeds, followers, wiki e um gráfico que mostra como os desenvolvedores trabalham as versões de seus repositórios.</p>
+	<p>O Github é um serviço de hospedagem 
+
+compartilhado, desenvolvido em Ruby on Rails por Chris 
+
+Wanstrath, PJ Hyett e Tom Preston - Wernder, para projetos
+que utilizam o controle de versionamento Git 
+
+disponibilizando plano comerciais e gratuitos para 
+
+projetos de código aberto. Assim, é utilizado como 
+
+repositório online de códigos fonte. Este site possui 
+
+funcionalidades de uma rede social que possibilita que 
+
+outras pessoas acompanhem o desenvolvimento de 
+seu projet como,feeds, followers, wiki e um gráfico que 
+
+mostra como os desenvolvedores trabalham as versões de 
+
+seus repositórios.</p>
 <br></br>
 <br></br>
 
@@ -19,68 +37,184 @@ seu projet como,feeds, followers, wiki e um gráfico que mostra como os desenvol
 
 
 
-	<h4>Você pode criar novos arquivos diretamente no GitHub em qualquer um dos seus repositórios</h4>
+	<h4>Você pode criar novos arquivos diretamente no 
+
+GitHub em qualquer um dos seus repositórios</h4>
 
 	
-<p>Navegue até uma pasta em seu repositório, onde você deseja criar um arquivo.Obotão criar novo arquivo no GitHub na barra do menu superior, há um ícone ao lado do 
+<p>Navegue até uma pasta em seu repositório, onde você 
 
-caminho do arquivo. Clique neste ícone para abrir um novo editor de arquivos.Usando o editor, digite o nome do arquivo que você deseja criar, e o conteúdo que você 
+deseja criar um arquivo.Obotão criar novo arquivo no 
 
-quer que ele tem.
+GitHub na barra do menu superior, há um ícone ao lado do 
 
-Os nomes dos arquivos criados através da interface web só pode conter caracteres alfanuméricos e hífens. Se você precisa usar outros personagens, você vai precisar 
+caminho do arquivo. Clique neste ícone para abrir um novo 
 
-para criar / commit os arquivos localmente e depois enviá-los para o repositório.
-Você pode criar subdiretórios, digitando o / separador de diretório.
-Commit mensagem para o seu novo arquivo. Digite uma mensagem de commit descrevendo o novo arquivo que você está adicionando, e pressione o Commit botão para mandar a 
+editor de arquivos.Usando o editor, digite o nome do 
+
+arquivo que você deseja criar, e o conteúdo que você quer 
+
+que ele tem.
+
+Os nomes dos arquivos criados através da interface web só 
+
+pode conter caracteres alfanuméricos e hífens. Se você 
+
+precisa usar outros personagens, você vai precisar para 
+
+criar / commit os arquivos localmente e depois enviá-los 
+
+para o repositório.
+Você pode criar subdiretórios, digitando o / separador de 
+
+diretório.
+Commit mensagem para o seu novo arquivo. Digite uma 
+
+mensagem de commit descrevendo o novo arquivo que você 
+
+está adicionando, e pressione o Commit botão para mandar a 
 
 sua mudança para o repositório.</p>
   
 
 		<h2>Editado Arquivos</h2>
-	<h4>Você pode editar arquivos diretamente no GitHub em qualquer um dos seus repositórios usando o editor de Ace .</h4>
+	<h4>Você pode editar arquivos diretamente no 
+
+GitHub em qualquer um dos seus repositórios usando o 
+
+editor de Ace .</h4>
 
 
 	<ol>
-		<li>Navegue até a pasta onde o arquivo que você deseja editar está localizado.</li>
+		<li>Navegue até a pasta onde o arquivo que 
 
-		<li>Selecione o arquivo que você deseja editar.</li>
+você deseja editar está localizado.</li>
 
-		<li>Clique no botão Editar acima do texto processado.</li>
+		<li>Selecione o arquivo que você deseja 
 
-		<li>Faça todas as alterações necessárias para o arquivo.</li>
+editar.</li>
 
-		<li>Clique visualização para ver como as mudanças vão ficar, uma vez que são feitas.</li>
+		<li>Clique no botão Editar acima do texto 
+
+processado.</li>
+
+		<li>Faça todas as alterações necessárias 
+
+para o arquivo.</li>
+
+		<li>Clique visualização para ver como as 
+
+mudanças vão ficar, uma vez que são feitas.</li>
 	
-		<li>Digite um resumo comite e, opcionalmente, uma descrição estendida.</li>
+		<li>Digite um resumo comite e, 
+
+opcionalmente, uma descrição estendida.</li>
 
 		<li>Clique Confirmar alterações.</li>
 
 	</ol>
 		<h2> Excluindo Arquivos </h2>
 
-	<h4>Você pode excluir qualquer arquivo dentro de seus repositórios no GitHub.</h4>
+	<h4>Você pode excluir qualquer arquivo dentro de 
+
+seus repositórios no GitHub.</h4>
 	<ol>
-		<li>Procure o arquivo em seu repositório que você deseja excluir.</li>
+		<li>Procure o arquivo em seu repositório 
 
-		<li>No topo do arquivo, clique em Excluir .</li>
+que você deseja excluir.</li>
 
-		<li>Digite uma mensagem de commit descrevendo por que você apagou o arquivo e clique em Commit para confirmar a alteração para o repositório.<>
+		<li>No topo do arquivo, clique em Excluir 
+
+.</li>
+
+		<li>Digite uma mensagem de commit 
+
+descrevendo por que você apagou o arquivo e clique em 
+
+Commit para confirmar a alteração para o repositório.<>
 	</ol>
 
 
 
-	<h3> Comandos no Github</h3>
+	<h3> Prinipais comandos no Github</h3>
 <ul>
-<li></li>
-</ul>
-	<p>Cada vez que você da um commit no Git, ele é armazenado em um repositório (ou "repo") Para colocar o seu projeto no GitHub, você precisa ter um 
+
+
+	<p>Cada vez que você da um commit no Git, ele é 
+
+armazenado em um repositório (ou "repo") Para colocar o 
+
+seu projeto no GitHub, você precisa ter um 
 
 repositório.</p>
     <h4>Criando um repositório no Github</h4>
 
-Preencha as informações nesta página. Quando estiver pronto, clique em "Create Repository".
+Preencha as informações nesta página. Quando estiver 
+
+pronto, clique em "Create Repository".
+
 ..
+
+
+		<li><h4>Branches</h4></li>
+	<p>Ramificação permite que você crie novas 
+
+funcionalidades ou testar idéias, sem colocar seu projeto 
+
+principal em risco. Em git, ramo é uma espécie de marcador 
+
+que faz referência ao último commit feito no ramo. Isso 
+
+faz com ramos muito pequeno e fácil de trabalhar.</p>
+	<p>Branches são muito fáceis de trabalhar e você 
+
+vai economizar um monte de dores de cabeça, especialmente 
+
+quando se trabalha com várias pessoas. Para criar um ramo 
+
+e começar a trabalhar nele, execute os seguintes comandos:
+
+
+<br></br>git branch mybranch <br></br>
+ # Cria um novo ramo chamado "mybranch" <br></br>
+git checkout mybranch<br></br>
+ # Faz "mybranch" o ramo ativo</p>
+
+<h5>Para alternar entre os ramos, use git checkout .</h5>
+
+<br></br>git checkout mestre <br></br>
+# Faz "mestre" do ativo ramo <br></br>
+git checkout mybranch<br></br>
+ # Faz "mybranch" o ramo ativo<br></br>
+<h5>Uma vez que você terminar de trabalhar no seu ramo e 
+
+está pronto para combiná-lo de volta para o mestre ramo, 
+
+usar merge .</h5>
+
+<br></br>git checkout mestre <br></br>
+# Faz "mestre" do ativo ramo<br></br> 
+git merge mybranch<br></br>
+ # Mescla os commits de "mybranch" em "master" <br></br>
+git branch-d mybranch<br></br>
+ # Exclui o "mybranch" ramo<br></br>
+
+		<li><h4>Excluir um garfo</h4></li>
+	<p>Em algum momento você pode decidir que você 
+
+quer apagar o seu garfo. Para excluir um garfo, basta 
+
+seguir os mesmos passos que você faria para excluir um 
+
+repositório comum.</p> <br></br>
+
+		<li><h4>Pull</h4></Li>
+	<p>Se o repositório original que você bifurcada 
+
+seu projeto de é atualizado, você pode adicionar as 
+
+atualizações para o seu garfo</p>
+
 
 
 
