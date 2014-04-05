@@ -23,6 +23,8 @@ E não aceitava outras ferramentas como CVS e SVN
 05/04/2005 – Surge a primeira versão do GIT
 15/06/2005 – Git é usado para no controle de versão do
 kernel do Linux
+O GitHub foi peça chave para sua popularização e hoje hospeda quase três milhões de repositório de quase um milhão dde desenvolvedores.Ele é como um "Facebook para prgramadores".Você pode seguir outras pessoas,acompanhar suas atividaes e até mesmo colaborar com seus prjetos.
+O Git não foi desenvolvido para Windows,mas roda nele perfeitamente.Antigamente,"Git" respondia pelo "GNU Interractive Tools".
 <center><h2>Quem está usando GIT?</h2></center>
 <ul>
 <li> Android</li>
@@ -42,6 +44,7 @@ kernel do Linux
 e muitos outros
 </ul>
 <center><h2>Controle de versão centralizada</h2></center>
+<center> <img src="download.jpg"> </center>
 <ul>
 <li> Sistemas de controle de versão tradicionais</li>
 <li>Trabalham com um banco de dados central</li>
@@ -55,7 +58,6 @@ e muitos outros
 <li>Comunicação servidor/cliente</li>
 <li>Backup?</li>
 </ul>
-<center> <img src="download.jpg"> </center>
 <center><h2>Vantagens do GIT</h2></center>
 <li> Consistência</li>
 <li>Nenhum repositório deve possui mais data que qualquer outro</li>
@@ -167,16 +169,16 @@ a--b--c <-- mywork
 o--o--o--o--o <-- origin
 <br>\</br>
 a--b--c <-- mywork
-<center><h2>Merge</h2></center>
+<center><h2>Merge (exemplo 2)</h2></center>
 <li> Como funciona o branching?</li>
 o--o--o--o--o--o <-- origin
 <br>\</br>
 a--b--c <-- mywork
-<li>O que é um rebase?</li>
+<li> O que é um rebase?</li>
 o--o--o--o--o--o <-- origin
 <br>\ \</br>
 a--b--c--m <-- mywork
-<h2>Otimizando a base GIT</h2>
+<center><h2>Otimizando a base GIT</h2></center>
 <li>git gc</li>
 <li> Limpa o repositório e compacta a base</li>
 <li>Utilize de tempos em tempos em projetos grandes!!!</li>
@@ -184,7 +186,7 @@ a--b--c--m <-- mywork
 <li>git fsck</li>
 <li> Confere a base de objetos</li>
 <li>Pode mostrar informações de erros</li>
-<h2>Usando o GIT remotamente</h2>
+<center><h2>Usando o GIT remotamente</h2></center>
 <li>Criar uma réplica de um repositório:</li>
 <li> git clone</li>
 <li> Pegar modificações feitas em um repositório</li>
@@ -193,7 +195,7 @@ a--b--c--m <-- mywork
 <li>Enviar modificações</li>
 <li> git push nome_remoto</li>
 <center><h2>Usando o GIT remotamente</h2></center>
-<center><img src="gitremot.png"><center>
+<center><img src="gitremot.png"></center>
 <li>Protocolos</li>
 <li>Pasta no seu computador (!!!)</li>
 <li> SSH</li>
@@ -202,5 +204,20 @@ a--b--c--m <-- mywork
 <li>Protocolo próprio do Git</li>
 <li> Criar apontamento remoto:</li>
 <li> git remote add /temp/repositorio_local/.git</li>
+<center><h2>Git para Backups</h2></center>
+<li> Exemplo: Um diretório precisa de backup!!!</li>
+<li> Rsync é uma ferramenta adequada?</li>
+ <li> Usa espaço em excesso</li> 
+<li>  Solução: crie um repositório GIT no diretório</li> 
+<li>  Faça commits regulares</li> 
+<li>  Faça push para o local do backup</li> 
+<li>  Mais que backup: backup versionado e usando menos espaço!</li>
+<h2>Outras ferramentas bacanas do GIT</h2>
+<li> bash/zsh completion</li>
+<li> Gitk</li>
+<li>GUI para visualizar os commits</li>
+<li> git instaweb</li>
+<li> Usado para gerar páginas web com o repositório </li>
+
  </body>
 </html>
