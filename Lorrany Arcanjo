@@ -4,27 +4,55 @@
     <Head>
 <body>
    <h1>Github</h1>
-O Github é um serviço de hospedagem compartilhado, 
+	<img src="trabalhopraticoI/github.jpg" width="499" height="510" align="left"> 
 
-desenvolvido em Ruby on Rails por Chris Wanstrath, PJ 
+	<p>O Github é um serviço de hospedagem compartilhado, desenvolvido em Ruby on Rails por Chris Wanstrath, PJ Hyett e Tom Preston - Wernder, para projetos
+que utilizam o controle de versionamento Git disponibilizando plano comerciais e gratuitos para projetos de código aberto. Assim, é utilizado como repositório online 
 
-Hyett e Tom Preston - Wernder para projetos 
-que utilizam o controle de versionamento Git 
+de códigos fonte. Este site possui funcionalidades de uma rede social que possibilita que outras pessoas acompanhem o desenvolvimento de 
+seu projet como,feeds, followers, wiki e um gráfico que mostra como os desenvolvedores trabalham as versões de seus repositórios.</p>
+<br></br>
+<br></br>
 
-disponibilizando plano comerciais e gratuitos para 
+		<h2>A criação de novos arquivos</h2>
 
-projetos de código aberto. Assim, é utilizado como 
 
-repositório online de códigos fonte. Este site possui 
 
-funcionalidades de uma rede social que possibilita que 
 
-outras pessoas acompanhem o desenvolvimento de 
-seu projet como,feeds, followers, wiki e um gráfico que 
+	<h3>Você pode criar novos arquivos diretamente no GitHub em qualquer um dos seus repositórios</h3>
 
-mostra como os desenvolvedores trabalham as versões de 
+	
+<p>Navegue até uma pasta em seu repositório, onde você deseja criar um arquivo.Obotão criar novo arquivo no GitHub na barra do menu superior, há um ícone ao lado do 
 
-seus repositórios.
+caminho do arquivo. Clique neste ícone para abrir um novo editor de arquivos.Usando o editor, digite o nome do arquivo que você deseja criar, e o conteúdo que você 
+
+quer que ele tem.
+
+Os nomes dos arquivos criados através da interface web só pode conter caracteres alfanuméricos e hífens. Se você precisa usar outros personagens, você vai precisar 
+
+para criar / commit os arquivos localmente e depois enviá-los para o repositório.
+Você pode criar subdiretórios, digitando o / separador de diretório.
+Commit mensagem para o seu novo arquivo. Digite uma mensagem de commit descrevendo o novo arquivo que você está adicionando, e pressione o Commit botão para mandar a 
+
+sua mudança para o repositório.</p>
+
+
+
+
+
+	<h3> Comandos no Github</h3>
+<ul>
+<li></li>
+</ul>
+	<p>Cada vez que você da um commit no Git, ele é armazenado em um repositório (ou "repo") Para colocar o seu projeto no GitHub, você precisa ter um 
+
+repositório.</p>
+    <h4>Criando um repositório no Github</h4>
+
+Preencha as informações nesta página. Quando estiver pronto, clique em "Create Repository".
+..
+
+
 
 </body>
 
