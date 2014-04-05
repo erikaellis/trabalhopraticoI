@@ -5,8 +5,9 @@
 	<title>Meu primeira trabalho com o git e github</title>
  </head>
  <body bgcolor="white" text="black"img src="/img/bola.jpg">
- <center><h1>Uma breve historia do git</h1></center>
+ <center><h1>Vamos conhecer um pouquinho sobre o git</h1></center>
  <center><img src="git-1.jpg" width="300" heigth="200"></center>
+ <center><h1>"Conheça uma breve história do git"<h1></center>
  <p>Assim como muitas coisas boas na vida, o Git começou com um tanto de destruição criativa e controvérsia acirrada. O kernel (núcleo) do Linux é um projeto de software de código aberto de escopo razoavelmente grande. Durante a maior parte do período de manutenção do kernel do Linux (1991-2002), as mudanças no software eram repassadas como patches e arquivos compactados. Em 2002, o projeto do kernel do Linux começou a usar um sistema DVCS proprietário chamado BitKeeper.
 Em 2005, o relacionamento entre a comunidade que desenvolvia o kernel e a empresa que desenvolvia comercialmente o BitKeeper se desfez, e o status de isento-de-pagamento da ferramenta foi revogado. Isso levou a comunidade de desenvolvedores do Linux (em particular Linus Torvalds, o criador do Linux) a desenvolver sua própria ferramenta baseada nas lições que eles aprenderam ao usar o BitKeeper. Alguns dos objetivos do novo sistema eram:
 <ul>
@@ -54,7 +55,7 @@ e muitos outros
 <li>Subversion (SVN)</li>
 <li> Visual Source Safe</li>
 <li>Desafios<qli>
-<li>Conflitos no desenvolvimento com muitos usuários<qli>
+<li>Conflitos no desenvolvimento com muitos usuários</li>
 <li>Comunicação servidor/cliente</li>
 <li>Backup?</li>
 </ul>
@@ -71,11 +72,25 @@ operações de push/pull</li>
 <li> Simplicidade</li>
 <li> Modelo de uso é muito simples</li>
 <li>Open Source</li>
-<h3>Documentado quase exclusivamente através de páginas
-geradas via “man”</h3>
-<li> Maior massa de dados em operações push/pull do que
-em commits/updates de versões centralizadas
-e… que eu saiba nenhuma outra !</li>
+<center><h2>Git Tem Integridade</h2></center>
+Tudo no Git tem seu checksum (valor para verificação de integridade) calculado antes que seja armazenado e então passa a ser referenciado pelo checksum.
+ Isso significa que é impossível mudar o conteúdo de qualquer arquivo ou diretório sem que o Git tenha conhecimento. Essa funcionalidade é parte fundamental 
+ do Git e é integral à sua filosofia. Você não pode perder informação em trânsito ou ter arquivos corrompidos sem que o Git seja capaz de detectar.
+
+O mecanismo que o Git usa para fazer o checksum é chamado de hash SHA-1, uma string de 40 caracteres composta de caracteres hexadecimais (0-9 e a-f)
+ que é calculado a partir do conteúdo de um arquivo ou estrutura de um diretório no Git. Um hash SHA-1 parece com algo mais ou menos assim:
+
+<font color="red">24b9da6552252987aa493b52f8696cd6d3b00373</font>
+Você vai encontrar esses hashes em todo canto, uma vez que Git os utiliza tanto. Na verdade, tudo que o Git armazena é identificado não por nome 
+do arquivo mas pelo valor do hash do seu conteúdo.
+<center><h2>Git Geralmente Só Adiciona Dados</h2></center>
+Dentre as ações que você pode realizar no Git, quase todas apenas acrescentam dados à base do Git. É muito difícil fazer qualquer coisa no sistema 
+que não seja reversível ou remover dados de qualquer forma. Assim como em qualquer VCS, você pode perder ou bagunçar mudanças que ainda não commitou; 
+mas depois de fazer um commit de um snapshot no Git, é muito difícil que você o perca, especialmente se você frequentemente joga suas mudanças para outro
+ repositório.
+
+Isso faz com que o uso do Git seja uma alegria no sentido de permitir que façamos experiências sem o perigo de causar danos sérios. Para uma análise 
+mais detalhada de como o Git armazena seus dados e de como você pode recuperar dados que parecem ter sido perdidos, 
 <center><h2>Arquitetura do GIT</h2></center>
 <li>Indíces</li>
 <li> Armazenam informação sobre a versão atual e as mudanças
@@ -93,9 +108,9 @@ commit e o hash da estrutura corrente</li>
 <center><h2>Instalando o GIT</h2></center>
 <table > 
 <tr> 
- 
-<td style = " width: 60px;"><img src = "gnu.png" ></td >
-<td style = " width: 60px; "><img src = "fouder.png" ></td> 
+ <td style = " width: 50%;"><img src = "ima.jpg" ></td >
+<td style = " width: 50%;"><img src = "gnu.png" ></td >
+
 </tr> 
 </table>
 <table > 
@@ -106,11 +121,11 @@ commit e o hash da estrutura corrente</li>
 </table>
 <table > 
 <tr> 
-<td style = " width: 60px;"><img src = "ima.png" ></td >
-<td style = " width: 60px; "><img src = "git-04.png" ></td> 
+<td style = " width: 60px;"><img src = "04-instalar.png" ></td >
+<td style = " width: 50%; "><img src = "fouder.png" ></td> 
 </tr> 
 </table>
-
+<h3>"As imagens acima mostra um pouco do processo de intalação do git"</h3>
 <li> Windows:</li>
 <li> msysgit: http://code.google.com/p/msysgit/</li>
 <li>Git Extensions: interface gráfica de fácil uso</li>
@@ -185,7 +200,7 @@ o--o--o--a--b--c--x--y--z
 o--o--o--o--o <-- origin
 <br>\</br>
 a--b--c <-- mywork
-<h2> O que é um rebase?</h2>
+<center><h2> O que é um rebase?</h2></center>
 o--o--o--o--o <-- origin
 <br>\</br>
 a--b--c <-- mywork
