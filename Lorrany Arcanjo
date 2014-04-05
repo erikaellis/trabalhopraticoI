@@ -1,0 +1,28 @@
+<Html>
+    <Head> 
+	<title>Github </title>
+    <Head>
+<body>
+   <h1>Github</h1>
+
+O Github é um serviço de hospedagem distribuído 
+
+desenvolvido em Ruby on Rails para projetos 
+que utilizam o controle de versão Git. Assim, é utilizado 
+
+como repositório online de códigos 
+fonte para projetos de código aberto.Podemos encontrar 
+
+nele informações sobre todos os commits (atualizações) 
+
+dos projetos que o 
+utilizam, uma rede social que possibilita que outras 
+
+pessoas acompanhem o desenvolvimento de 
+seu projeto, um recurso para visualizar gráficos de 
+
+quantas atualizações cada pessoa no projeto 
+está realizando, entre outras novidades.
+</body>
+
+</Html>
