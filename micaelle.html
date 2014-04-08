@@ -5,7 +5,9 @@
 	<title>Meu primeira trabalho com o git e github</title>
  </head>
  <body bgcolor="white" text="black"img src="/img/bola.jpg">
- <h2>Uma breve historia do git</h2>
+ <center><h1>"Vamos conhecer um pouquinho sobre o git"</h1></center>
+ <center><img src="git-1.jpg" width="300" heigth="200"></center>
+ <center><h1>"Conheça uma breve história do git"<h1></center>
  <p>Assim como muitas coisas boas na vida, o Git começou com um tanto de destruição criativa e controvérsia acirrada. O kernel (núcleo) do Linux é um projeto de software de código aberto de escopo razoavelmente grande. Durante a maior parte do período de manutenção do kernel do Linux (1991-2002), as mudanças no software eram repassadas como patches e arquivos compactados. Em 2002, o projeto do kernel do Linux começou a usar um sistema DVCS proprietário chamado BitKeeper.
 Em 2005, o relacionamento entre a comunidade que desenvolvia o kernel e a empresa que desenvolvia comercialmente o BitKeeper se desfez, e o status de isento-de-pagamento da ferramenta foi revogado. Isso levou a comunidade de desenvolvedores do Linux (em particular Linus Torvalds, o criador do Linux) a desenvolver sua própria ferramenta baseada nas lições que eles aprenderam ao usar o BitKeeper. Alguns dos objetivos do novo sistema eram:
 <ul>
@@ -21,8 +23,10 @@ Linus usa BitKeeper para gerenciar o código de suas Versões do Linux</p>
 E não aceitava outras ferramentas como CVS e SVN
 05/04/2005 – Surge a primeira versão do GIT
 15/06/2005 – Git é usado para no controle de versão do
-kernel do Linux
-<h2>Quem está usando GIT?</h2>
+kernel do Linux.
+O GitHub foi peça chave para sua popularização e hoje hospeda quase três milhões de repositório de quase um milhão dde desenvolvedores.Ele é como um "Facebook para prgramadores".Você pode seguir outras pessoas,acompanhar suas atividaes e até mesmo colaborar com seus prjetos.
+O Git não foi desenvolvido para Windows,mas roda nele perfeitamente.Antigamente,"Git" respondia pelo "GNU Interractive Tools".
+<center><h2>Quem está usando GIT?</h2></center>
 <ul>
 <li> Android</li>
 <li>Gnome</li>
@@ -40,7 +44,8 @@ kernel do Linux
 <li>phpMyAdmin</li>
 e muitos outros
 </ul>
-<h2>Controle de versão centralizada</h2>
+<center><h2>Controle de versão centralizada</h2></center>
+<center> <img src="download.jpg"> </center>
 <ul>
 <li> Sistemas de controle de versão tradicionais</li>
 <li>Trabalham com um banco de dados central</li>
@@ -50,9 +55,205 @@ e muitos outros
 <li>Subversion (SVN)</li>
 <li> Visual Source Safe</li>
 <li>Desafios<qli>
-<li>Conflitos no desenvolvimento com muitos usuários<qli>
+<li>Conflitos no desenvolvimento com muitos usuários</li>
 <li>Comunicação servidor/cliente</li>
 <li>Backup?</li>
 </ul>
- </body>
+<center><h2>Vantagens do GIT</h2></center>
+<li> Consistência</li>
+<li>Nenhum repositório deve possui mais data que qualquer outro</li>
+<li> Velocidade</li>
+<li>Muito mais rápidos que sistemas de controle de versão
+convencionais (estou falando de CVS e Subversion)</li>
+<li> Espaço</li>
+<li> Algoritmos de compressão eficientes que analisam “o todo”</li>
+<li> Reduz o tamanho local, assim como as transferências em
+operações de push/pull</li>
+<li> Simplicidade</li>
+<li> Modelo de uso é muito simples</li>
+<li>Open Source</li>
+<center><h2>Git Tem Integridade</h2></center>
+Tudo no Git tem seu checksum (valor para verificação de integridade) calculado antes que seja armazenado e então passa a ser referenciado pelo checksum.
+ Isso significa que é impossível mudar o conteúdo de qualquer arquivo ou diretório sem que o Git tenha conhecimento. Essa funcionalidade é parte fundamental 
+ do Git e é integral à sua filosofia. Você não pode perder informação em trânsito ou ter arquivos corrompidos sem que o Git seja capaz de detectar.
+
+O mecanismo que o Git usa para fazer o checksum é chamado de hash SHA-1, uma string de 40 caracteres composta de caracteres hexadecimais (0-9 e a-f)
+ que é calculado a partir do conteúdo de um arquivo ou estrutura de um diretório no Git. Um hash SHA-1 parece com algo mais ou menos assim:
+
+<font color="red">24b9da6552252987aa493b52f8696cd6d3b00373</font>
+Você vai encontrar esses hashes em todo canto, uma vez que Git os utiliza tanto. Na verdade, tudo que o Git armazena é identificado não por nome 
+do arquivo mas pelo valor do hash do seu conteúdo.
+<center><h2>Git Geralmente Só Adiciona Dados</h2></center>
+Dentre as ações que você pode realizar no Git, quase todas apenas acrescentam dados à base do Git. É muito difícil fazer qualquer coisa no sistema 
+que não seja reversível ou remover dados de qualquer forma. Assim como em qualquer VCS, você pode perder ou bagunçar mudanças que ainda não commitou; 
+mas depois de fazer um commit de um snapshot no Git, é muito difícil que você o perca, especialmente se você frequentemente joga suas mudanças para outro
+ repositório.
+
+Isso faz com que o uso do Git seja uma alegria no sentido de permitir que façamos experiências sem o perigo de causar danos sérios. Para uma análise 
+mais detalhada de como o Git armazena seus dados e de como você pode recuperar dados que parecem ter sido perdidos, 
+<center><h2>Arquitetura do GIT</h2></center>
+<li>Indíces</li>
+<li> Armazenam informação sobre a versão atual e as mudanças
+feitas nela</li>
+<li> Banco de Dados de Objetos</li>
+<li>Blobs (arquivos)</li>
+<li> Armazenados na pasta .git/objects</li>
+<li> Indexados por um único hash</li>
+<li> Todos os arquivos são armazenados em blobs</li>
+<li>Trees (diretórios)</li>
+<li>Commits</li>
+<li>Cada commit gera um novo objeto</li>
+<li>Informações do commit: hash do pai, nome do autor, data/hora do
+commit e o hash da estrutura corrente</li>
+<center><h2>Instalando o GIT</h2></center>
+<table > 
+<tr> 
+ <td style = " width: 50%;"><img src = "ima.jpg" ></td >
+<td style = " width: 50%;"><img src = "gnu.png" ></td >
+
+</tr> 
+</table>
+<table > 
+<tr> 
+<td style = " width: 60px;"><img src = "git06.jpg" ></td >
+<td style = " width: 60px; "><img src = "git-04.png" ></td> 
+</tr> 
+</table>
+<table > 
+<tr> 
+<td style = " width: 60px;"><img src = "04-instalar.png" ></td >
+<td style = " width: 50%; "><img src = "fouder.png" ></td> 
+</tr> 
+</table>
+<h3>"As imagens acima mostra um pouco do processo de intalação do git"</h3>
+<li> Windows:</li>
+<li> msysgit: http://code.google.com/p/msysgit/</li>
+<li>Git Extensions: interface gráfica de fácil uso</li>
+<li>Ubuntu:</li>
+<li> sudo apt-get install git-core gitk</li>
+<li> Mac (com MacPorts instado):</li>
+<li> sudo port install git-core gitk</li>
+<center><h2>Armazenamento do GIT</h2></center>
+<li> A pasta .git</li>
+<li>Apenas no diretório raiz do projeto</li>
+<li> Contem todos os objetos, commits e configurações do projeto</li>
+<li>.git/config: arquivo com configurações específicas do repositório</li>
+<li> .gitignore</li>
+<li> Arquivo texto que indica os arquivos que devem ser ignorados</li>
+<li> Exemplo: *.exe, *.dll, *.o, ~*</li>
+<center><h2>Alguns comandos</h2></center>
+<li> Pegar ou iniciar um
+repositório</li>
+<li> git init</li>
+<li>git clone</li>
+<li> Commits</li>
+<li> git add</li>
+<li> git commit</li>
+<li> Informações<qli>
+<li> git help</li>
+<li> git status</li>
+<li>git diff</li>
+<li> git log</li>
+<li> git show</li>
+<center><h2>Usando o GIT</h2></center>
+<li> Iniciando seu repositório:</li>
+<li>git init</li>
+<li> Configurando seus dados:</li>
+<li> git config --global user.name ”Túlio Toffolo”</li>
+<li> git config --global user.email ”tulio@toffolo.com.br"</li>
+<li> Adicionando arquivos à lista de commit</li>
+<li> git add arquivo.c</li>
+<li>git add.</li>
+<center><h2>Desfazendo as alterações desde algum commit</h2></center>
+<li> gitk checkout.<qli>
+<li> Movendo para uma versão antiga do repositório:</li>
+<li> git reset</li>
+<li> git reset --force (força a barra e volta sem fazer commit)</li>
+<li> Revertendo para uma versão antiga do repositório:</li>
+<li>git revert</li>
+(nao remove nada, apenas aplica um patch)
+<center><h2>GIT nunca deleta um commit</h2></center>
+<li>Assim, é difícil demais perder dados usando GIT</li>
+<li> Muito difícil dar um tiro no pé</li>
+<li> Criando TAGs</li>
+<li> git tag <nome_da_tag></li>
+<center><h2>Usando branches<h2></center>
+<li>O sistema de branches é a parte mais interessanto no
+uso do GIT</li>
+<li>Você sempre está trabalhando em algum BRANCH</li>
+<li>Um BRANCH pode ser local ou remoto</li>
+<li>Visualizando os branches</li>
+<li> git branch</li>
+<li> Criando um branch:</li>
+<li>git branch <nome_do_branch></li>
+<center><h2>Merge</h2></center>
+<li>Como funciona o branching?</li>
+o--o--o <-- origin
+<br>\</br>
+a--b--c <-- mywork
+<br>\</br>
+x--y--z <-- teste
+<li>O que é um merge?</li>
+o--o--o--a--b--c--x--y--z
+<center><h2>Rebase</h2></center>
+<h3> Como funciona o branching?</h3>
+o--o--o--o--o <-- origin
+<br>\</br>
+a--b--c <-- mywork
+<center><h2> O que é um rebase?</h2></center>
+o--o--o--o--o <-- origin
+<br>\</br>
+a--b--c <-- mywork
+<center><h2>Merge (exemplo 2)</h2></center>
+<li> Como funciona o branching?</li>
+o--o--o--o--o--o <-- origin
+<br>\</br>
+a--b--c <-- mywork
+<li> O que é um rebase?</li>
+o--o--o--o--o--o <-- origin
+<br>\ \</br>
+a--b--c--m <-- mywork
+<center><h2>Otimizando a base GIT</h2></center>
+<li>git gc</li>
+<li> Limpa o repositório e compacta a base</li>
+<li>Utilize de tempos em tempos em projetos grandes!!!</li>
+<li>Aumenta a performance consideravelmente</li>
+<li>git fsck</li>
+<li> Confere a base de objetos</li>
+<li>Pode mostrar informações de erros</li>
+<center><h2>Usando o GIT remotamente</h2></center>
+<li>Criar uma réplica de um repositório:</li>
+<li> git clone</li>
+<li> Pegar modificações feitas em um repositório</li>
+<li>git fetch (pega as atualizações e coloca em outro branch)</li>
+<li> git pull (pega as atualizações e já faz merge)</li>
+<li>Enviar modificações</li>
+<li> git push nome_remoto</li>
+<center><h2>Usando o GIT remotamente</h2></center>
+<center><img src="gitremot.png"></center>
+<li>Protocolos</li>
+<li>Pasta no seu computador (!!!)</li>
+<li> SSH</li>
+<li>Rsync</li>
+<li>HTTP</li>
+<li>Protocolo próprio do Git</li>
+<li> Criar apontamento remoto:</li>
+<li> git remote add /temp/repositorio_local/.git</li>
+<center><h2>Git para Backups</h2></center>
+<li> Exemplo: Um diretório precisa de backup!!!</li>
+<li> Rsync é uma ferramenta adequada?</li>
+ <li> Usa espaço em excesso</li> 
+<li>  Solução: crie um repositório GIT no diretório</li> 
+<li>  Faça commits regulares</li> 
+<li>  Faça push para o local do backup</li> 
+<li>  Mais que backup: backup versionado e usando menos espaço!</li>
+<h2>Outras ferramentas bacanas do GIT</h2>
+<li> bash/zsh completion</li>
+<li> Gitk</li>
+<li>GUI para visualizar os commits</li>
+<li> git instaweb</li>
+<li> Usado para gerar páginas web com o repositório </li>
+"No final o arquivo vai ficar mais ou menos assim..."
+<center><img src="commit.png"> </center>
+</body>
 </html>
